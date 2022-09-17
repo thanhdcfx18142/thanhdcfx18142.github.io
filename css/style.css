@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+#nav-bar {
+  text-align: center;
+}
+/*MAIN FONT*/
+body {
+  font-family: sans-serif;
+}
+
+/*LINKS*/
+a:link,
+a:visited {
+  text-decoration: none;
+}
+/*FLEX*/
+.flex {
+  display: flex;
+  justify-content: center;
+}
+/*GRID*/
+.grid-7-3 {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+/*END OF GRID*/
+/*NAVBAR*/
+.navb-link {
+  padding: 15px 20px 20px 30px;
+  border-left: 1px solid black;
+}
+.thong-tin::before {
+  display: inline-block;
+  width: 18px;
+  font-family: fontello;
+  padding-right: 5px;
+  content: "\e82e";
+  color: rgb(25, 156, 219);
+}
+.ly-lich::before {
+  display: inline-block;
+  width: 18px;
+  font-family: fontello;
+  padding-right: 5px;
+  content: "\e891";
+  color: rgb(25, 156, 219);
+}
+.chung-chi::before {
+  display: inline-block;
+  width: 18px;
+  font-family: fontello;
+  padding-right: 5px;
+  content: "\e826";
+  color: rgb(25, 156, 219);
+}
+.du-an::before {
+  display: inline-block;
+  width: 18px;
+  font-family: fontello;
+  padding-right: 5px;
+  content: "\e82a";
+  color: rgb(25, 156, 219);
+}
+#nav-bar .space {
+  display: inline-block;
+  width: 400px;
+  position: relative;
+}
+#nav-bar .profile-img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 155px;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+/*END OF NAVBAR*/

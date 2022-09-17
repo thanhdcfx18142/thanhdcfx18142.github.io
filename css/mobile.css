@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  /*NAVBAR*/
+  .space {
+    display: none;
+  }
+  nav {
+    display: block;
+    text-align: start;
+  }
+  .navb-link {
+    border: none;
+    padding: 5px 10px;
+  }
+  /*END OF NAVBAR*/
+  /*ABOUT*/
+  #about .row {
+    display: block;
+  }
+  /*END OF ABOUT*/
+  /*CERTIFICATE*/
+  .cer-1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cer-2 {
+    padding-top: 30px;
+  }
+  .cer-1-2 {
+    border-left: none;
+  }
+  #certificate .grid-50-50 {
+    display: block;
+  }
+  #certificate .grid-40-60 {
+    border-left: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /*END OF CERTIFICATE*/
+  #footer li i {
+    padding-right: 5px;
+    font-size: 4em;
+  }
+  #footer li span {
+    display: none;
+  }
+}
